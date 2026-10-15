@@ -1,0 +1,350 @@
+[
+  {
+    "id": "p001",
+    "title": "Classic White T-Shirt",
+    "brand": "Urban Threads",
+    "category": "T-shirts",
+    "price": 599,
+    "compareAtPrice": 799,
+    "rating": 4.5,
+    "colours": [
+      "White",
+      "Black",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=85",
+    "description": "A versatile cotton T-shirt designed for everyday comfort."
+  },
+  {
+    "id": "p002",
+    "title": "Oversized Black Tee",
+    "brand": "Urban Threads",
+    "category": "T-shirts",
+    "price": 699,
+    "compareAtPrice": 899,
+    "rating": 4.7,
+    "colours": [
+      "Black",
+      "Charcoal"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "imageUrl": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=800&q=85",
+    "description": "A relaxed-fit tee with a modern streetwear silhouette."
+  },
+  {
+    "id": "p003",
+    "title": "Minimal Graphic Tee",
+    "brand": "Street Culture",
+    "category": "T-shirts",
+    "price": 749,
+    "rating": 4.3,
+    "colours": [
+      "White",
+      "Beige"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRaS7atQW-L0sgftUe14VQQU1H_um2klaPMsvniHxWRQ9_wFw9DeCymcNeEVjB-JZBtu-GaTt_yGI68Agu4p7Z3y-DtCoh4HswUmIfSb30hYt2r-oAm45Wo_A",
+    "description": "A casual graphic tee that pairs easily with jeans and sneakers."
+  },
+  {
+    "id": "p004",
+    "title": "Oxford Blue Shirt",
+    "brand": "Modern Form",
+    "category": "Shirts",
+    "price": 1199,
+    "compareAtPrice": 1499,
+    "rating": 4.6,
+    "colours": [
+      "Blue",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800&q=85",
+    "description": "A smart Oxford shirt suitable for office and casual occasions."
+  },
+  {
+    "id": "p005",
+    "title": "Linen Casual Shirt",
+    "brand": "Modern Form",
+    "category": "Shirts",
+    "price": 1399,
+    "compareAtPrice": 1699,
+    "rating": 4.4,
+    "colours": [
+      "Beige",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "imageUrl": "https://images.unsplash.com/photo-1603252109303-2751441dd157?auto=format&fit=crop&w=800&q=85",
+    "description": "A lightweight casual shirt with an effortless summer look."
+  },
+  {
+    "id": "p006",
+    "title": "Striped Everyday Shirt",
+    "brand": "Northline",
+    "category": "Shirts",
+    "price": 1099,
+    "rating": 4.2,
+    "colours": [
+      "Blue",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "imageUrl": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=800&q=85",
+    "description": "A timeless striped shirt for relaxed and semi-formal styling."
+  },
+  {
+    "id": "p007",
+    "title": "Floral Summer Dress",
+    "brand": "Bloom Studio",
+    "category": "Dresses",
+    "price": 1599,
+    "compareAtPrice": 1999,
+    "rating": 4.8,
+    "colours": [
+      "Pink",
+      "Cream"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "imageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=85",
+    "description": "A breezy floral dress made for warm days and weekend outings."
+  },
+  {
+    "id": "p008",
+    "title": "Elegant Evening Dress",
+    "brand": "Bloom Studio",
+    "category": "Dresses",
+    "price": 2499,
+    "compareAtPrice": 2999,
+    "rating": 4.7,
+    "colours": [
+      "Black",
+      "Burgundy"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "imageUrl": "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?auto=format&fit=crop&w=800&q=85",
+    "description": "An elegant statement dress for dinners, celebrations, and parties."
+  },
+  {
+    "id": "p009",
+    "title": "Casual Midi Dress",
+    "brand": "Everyday Edit",
+    "category": "Dresses",
+    "price": 1799,
+    "rating": 4.3,
+    "colours": [
+      "Olive",
+      "Black"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=85",
+    "description": "A versatile everyday dress with a contemporary silhouette."
+  },
+  {
+    "id": "p010",
+    "title": "Slim Fit Blue Jeans",
+    "brand": "Denim District",
+    "category": "Jeans",
+    "price": 1499,
+    "compareAtPrice": 1899,
+    "rating": 4.5,
+    "colours": [
+      "Blue",
+      "Dark Blue"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "imageUrl": "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=800&q=85",
+    "description": "Classic blue denim with a slim fit for everyday wear."
+  },
+  {
+    "id": "p011",
+    "title": "Relaxed Straight Jeans",
+    "brand": "Denim District",
+    "category": "Jeans",
+    "price": 1699,
+    "rating": 4.6,
+    "colours": [
+      "Light Blue",
+      "Black"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=85",
+    "description": "Relaxed straight-leg denim for a comfortable, modern fit."
+  },
+  {
+    "id": "p012",
+    "title": "Classic Denim Jacket",
+    "brand": "Street Culture",
+    "category": "Jackets",
+    "price": 2299,
+    "compareAtPrice": 2799,
+    "rating": 4.8,
+    "colours": [
+      "Blue",
+      "Black"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "imageUrl": "https://images.unsplash.com/photo-1578681994506-b8f463449011?auto=format&fit=crop&w=800&q=85",
+    "description": "A timeless denim layer that works across seasons."
+  },
+  {
+    "id": "p013",
+    "title": "Urban Bomber Jacket",
+    "brand": "Northline",
+    "category": "Jackets",
+    "price": 2799,
+    "compareAtPrice": 3299,
+    "rating": 4.4,
+    "colours": [
+      "Black",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=800&q=85",
+    "description": "A contemporary jacket designed for cool evenings and streetwear outfits."
+  },
+  {
+    "id": "p014",
+    "title": "Lightweight Casual Jacket",
+    "brand": "Modern Form",
+    "category": "Jackets",
+    "price": 1999,
+    "rating": 4.1,
+    "colours": [
+      "Beige",
+      "Black"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "imageUrl": "https://images.unsplash.com/photo-1544923246-77307dd654cb?auto=format&fit=crop&w=800&q=85",
+    "description": "A lightweight outer layer for everyday casual styling."
+  },
+  {
+    "id": "p015",
+    "title": "Premium Denim Shirt",
+    "brand": "Denim District",
+    "category": "Shirts",
+    "price": 1599,
+    "compareAtPrice": 1999,
+    "rating": 4.6,
+    "colours": [
+      "Dark Blue",
+      "Light Blue"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "inStock": false,
+    "isNew": false,
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=800&q=85",
+    "description": "A denim-inspired shirt with a versatile, premium casual look."
+  }
+]
