@@ -3,7 +3,7 @@ import type { Product } from '../types/Product';
 import '../ProductCard.css';
 import type { RootState } from '../redux/store';
 import { useDispatch, useSelector } from 'react-redux';
-import { addToWishlist } from '../features/Wishlist/WishList';
+import { addToWishlist ,removeFromWishList} from '../features/Wishlist/WishList';
 import {
   addToCart,
   decreaseQuantity,
@@ -26,11 +26,12 @@ const ProductCard = ({ product }: { product: Product }) => {
   const quantity = cartItem?.quantity ?? 0;
 
   function wishListhandler() {
-    dispatch(addToWishlist(product));
-
+    
     if(heartColor === "🤍"){
+      dispatch(addToWishlist(product));
         setHeartColor("❤️")
     }else{
+      dispatch(removeFromWishList(product));
         setHeartColor("🤍")
     }
   }
