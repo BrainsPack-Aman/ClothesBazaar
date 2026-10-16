@@ -7,6 +7,7 @@ import {
   addToCart,
 } from "../features/Cart/CartSlice";
 
+
 interface CartModalProps {
   onClose: () => void;
 }
