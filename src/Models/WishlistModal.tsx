@@ -1,7 +1,7 @@
 
 import { useSelector } from "react-redux";
 import type { Product } from "../types/Product";
-import "../WishlistModal.css";
+import "../WishListModal.css";
 
 
 interface WishlistModalProps {
