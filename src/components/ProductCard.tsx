@@ -10,8 +10,12 @@ import {
 } from '../features/Cart/CartSlice';
 import { useState } from 'react';
 
+import ProductDetailModal from '../Models/ProductDetailModal';
+
 const ProductCard = ({ product }: { product: Product }) => {
   const dispatch = useDispatch();
+
+  const [isDetailOpen, setIsDetailOpen] = useState(false);
 
   const cartProducts = useSelector(
     (state: RootState) => state.cart.products
@@ -47,7 +51,10 @@ const ProductCard = ({ product }: { product: Product }) => {
   return (
     <div className="product-card">
       <div className="product-image">
-        <img src={product.imageUrl} alt={product.title} />
+        <img src={product.imageUrl} alt={product.title} 
+        onClick={() => setIsDetailOpen(true)}
+        style={{ cursor: "pointer" }}
+        />
 
         <p
 
@@ -80,7 +87,6 @@ const ProductCard = ({ product }: { product: Product }) => {
               <button
                 type="button"
                 onClick={decreaseCartQuantity}
-                aria-label={`Decrease ${product.title} quantity`}
               >
                 −
               </button>
@@ -90,7 +96,6 @@ const ProductCard = ({ product }: { product: Product }) => {
               <button
                 type="button"
                 onClick={cartHandler}
-                aria-label={`Increase ${product.title} quantity`}
               >
                 +
               </button>
@@ -98,6 +103,13 @@ const ProductCard = ({ product }: { product: Product }) => {
           )}
         </div>
       </div>
+
+      {isDetailOpen && (
+  <ProductDetailModal
+    product={product}
+    onClose={() => setIsDetailOpen(false)}
+   />
+        )}
     </div>
   );
 };
