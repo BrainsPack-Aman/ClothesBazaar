@@ -9,6 +9,7 @@ import {
   decreaseQuantity,
 } from '../features/Cart/CartSlice';
 import { useState } from 'react';
+import { toast } from 'react-toastify';
 
 import ProductDetailModal from '../Models/ProductDetailModal';
 
@@ -34,14 +35,19 @@ const ProductCard = ({ product }: { product: Product }) => {
     if(heartColor === "🤍"){
       dispatch(addToWishlist(product));
         setHeartColor("❤️")
+        toast.success("Item added to wishlist")
     }else{
       dispatch(removeFromWishList(product));
         setHeartColor("🤍")
+        toast.warning("Item removed from wishlist")
     }
   }
 
   function cartHandler() {
     dispatch(addToCart(product));
+    if(quantity == 0){
+      toast.success("Item Added to cart")
+    }
   }
 
   function decreaseCartQuantity() {
